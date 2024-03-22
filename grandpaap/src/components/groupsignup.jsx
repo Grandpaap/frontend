@@ -67,7 +67,7 @@ const GroupSignup = () => {
 
       console.log('Group created:', response);
       setSuccessMessage('Group created successfully');
-      setGroupName(''); // Clear the input field after creating the group
+      setGroupName(''); 
     } catch (error) {
       console.error('Error creating group:', error);
     }
